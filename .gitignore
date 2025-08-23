@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.env/
+venv/
+.venv/
+
+# Index & storage hasil generate
+storage/
+*.db
+
+# Log & data sementara
+*.log
+*.csv
+*.zip
+
+# Jupyter / VSCode
+.ipynb_checkpoints/
+.vscode/
+*.code-workspace
+
+# Sistem OS
+.DS_Store
+Thumbs.db
