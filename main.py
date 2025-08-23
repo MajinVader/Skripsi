@@ -266,10 +266,6 @@ async def next_step_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
         # saran langkah berikutnya biar jelas
         tips = (
             "Terima kasih sudah menggunakan bot ini 👋\n\n"
-            "Saran berikutnya:\n"
-            "• Ketik /start untuk ganti kategori dan tanya lagi\n"
-            "• Ketik /reset kalau mau hapus pilihan kategori yang aktif\n"
-            "• Pastikan data kamu up-to-date lalu rebuild index (jalankan build_index.py) kalau ada perubahan"
         )
         await q.edit_message_text(tips)
 
