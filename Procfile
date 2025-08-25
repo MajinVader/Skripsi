@@ -1,0 +1,1 @@
+worker: bash -lc "python build_index.py && python main.py"
